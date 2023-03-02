@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: #08f2f2;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    height: 380px;
+    border: 2px solid black;
+    background-color: wheat;
+    font-size: 24px;
+    border-radius: 6px;
+
+}
+h2{
+    margin-left: 5px;
+}
+.ans{
+    margin-top: 6px;
+    padding: 10px;
+}
+.opt{
+    margin-top: 44px;
+}
+.btn{
+    width: 90%;
+    height: 33px;
+    margin-left: 23px;
+    font-size: 24px;
+    background-color: lightblue;
+    cursor: pointer;
+    
+}
